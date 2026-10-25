@@ -1,0 +1,15 @@
+@EndUserText.label: 'Service Defn for Travel Processor'
+define service ZR_PAN_TRAVEL_PROCESSOR_SD {
+  expose ZR_PAN_TRAVEL_PROCESSOR   as Travel;
+  expose ZI_PAN_BOOKING_PROCESSOR  as Booking;
+  expose ZI_PAN_BOOKSUPP_PROCESSOR as Suppl;
+  expose /DMO/I_Agency             as Agency;
+  expose /DMO/I_Customer           as Customer;
+  expose I_Currency                as Currency;
+  expose /DMO/I_Travel_Status_VH   as TravelStatus;
+  expose /DMO/I_Connection         as Connection;
+  expose /DMO/I_Booking_Status_VH  as BookingStatus;
+  expose /DMO/I_Carrier            as Carrier;
+  expose /DMO/I_Supplement         as Supplement;
+  expose /DMO/I_SupplementText     as SupplementText;
+}
